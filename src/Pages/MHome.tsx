@@ -1,9 +1,8 @@
-
+import { Link } from "react-router-dom"
 export default function MHome() {
-  
 
   return (
-<div className="bg-white">
+<div className="bg-white m-5">
 <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -18,9 +17,20 @@ export default function MHome() {
     Discover high-quality camera accessories and power solutions trusted by professionals worldwide. From batteries and chargers to tripods and lights, SWISSCO Technology (Industries) Pte. Ltd. has been enhancing the art of photography since 2003.
   </p>
   <div className="flex justify-center">
-    <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-2xl text-lg">Explore Products</button>
-    <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-2xl text-lg">Learn More</button>
-  </div>
+  <Link
+      to="/products"
+      className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-2xl text-lg"
+    >
+      Explore Products
+    </Link>   
+    
+    <Link
+      to="/about"
+      className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-2xl text-lg"
+    >
+      Learn More
+    </Link>
+      </div>
 </div>
 
   </div>
@@ -327,7 +337,7 @@ export default function MHome() {
     <h1 className="text-[25px]">FAQ</h1>
 <AccordionDemo></AccordionDemo>
 </div> */}
-<section className="bg-red-600 text-gray-600 body-font py-24">
+<section className="bg-red-600 rounded-3xl m-3 text-gray-600 body-font py-24">
   <div className="container mx-auto px-5">
     <h1 className="text-3xl font-medium text-white mb-12 text-center">Testimonials</h1>
     <div className="flex flex-wrap -m-4">

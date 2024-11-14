@@ -45,7 +45,7 @@ export default function Products() {
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-white m-5">
       <section className="text-gray-600 body-font">
         <h1 className='ml-20 mt-14 text-5xl text-red-600 font-bold '>Our Products</h1>
         <div className="container px-5 py-24 mx-auto">
