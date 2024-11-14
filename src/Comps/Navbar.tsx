@@ -137,8 +137,20 @@ function MenuIcon(props: any) {
   )
 }
 
-function MountainIcon(props: any) {
+// function MountainIcon() {
+//   return (
+//     <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731481769/swissco/Swissco_boljbq.png" alt="logo" height='auto' width='80px' />
+//   )
+// }
+
+function MountainIcon(props: React.HTMLAttributes<HTMLImageElement>) {
   return (
-    <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731481769/swissco/Swissco_boljbq.png" alt="logo" height='auto' width='80px' />
+    <img
+      src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731481769/swissco/Swissco_boljbq.png"
+      alt="logo"
+      height="auto"
+      width="80px"
+      {...props} 
+    />
   )
 }
