@@ -23,11 +23,11 @@ export default function Footer() {
             <h2 className="mb-4 text-lg font-semibold">Quick Links</h2>
             <ul className="space-y-2">
               <li><a href="/" className="hover:text-zinc-300">Home</a></li>
-              <li><a href="/features" className="hover:text-zinc-300">Features</a></li>
-              <li><a href="/pricing" className="hover:text-zinc-300">Pricing</a></li>
+              <li><a href="/features" className="hover:text-zinc-300">Products</a></li>
+              <li><a href="/pricing" className="hover:text-zinc-300">Events</a></li>
               <li><a href="/about" className="hover:text-zinc-300">About Us</a></li>
-              <li><a href="/blog-resources" className="hover:text-zinc-300">Blog & Resources</a></li>
-              <li><a href="/support" className="hover:text-zinc-300">Support</a></li>
+              {/* <li><a href="/blog-resources" className="hover:text-zinc-300">Blog & Resources</a></li> */}
+              <li><a href="/support" className="hover:text-zinc-300">Contact Us</a></li>
             </ul>
           </div>
           <div>
@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t border-zinc-700 pt-8 text-center">
           <p className="text-sm text-zinc-400">
-            © 2024 SaasDo. All rights reserved. SaasDo is a registered trademark.
+            © 2003 Swissco. All rights reserved. Swissco is a registered trademark.
           </p>
         </div>
       </div>

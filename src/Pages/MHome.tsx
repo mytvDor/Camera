@@ -225,109 +225,146 @@ export default function MHome() {
 
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731516836/swissco/Lithium_Lon_Camera_video_Battery_q7orak.webp"/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">THE SUBTITLE</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517000/swissco/SC308_Duo_Battery_LCD_Charger_mnwvni.jpg"/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">THE SUBTITLE</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517117/swissco/ST_CP-2L_Battery_Charger_kspkik.jpg"/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">THE SUBTITLE</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517173/swissco/Uni-App_Charger_vlaxhb.jpg"/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">THE SUBTITLE</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517245/swissco/DL608_USB_Twin_Battery_Charger_fsafei.jpg"/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">THE SUBTITLE</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative">
-          <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517321/swissco/USB_Camera_Battery_With_type-C_input_ayrnwk.png"/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">THE SUBTITLE</h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
-            <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-          </div>
-        </div>
-      </div>
+      <div className="flex relative">
+    <img alt="Lithium Ion Camera & Video Battery" className="absolute inset-0 w-full h-full object-cover object-center" 
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731516836/swissco/Lithium_Lon_Camera_video_Battery_q7orak.webp" />
+    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+        <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">HIGH-PERFORMANCE POWER</h2>
+        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Lithium Ion Camera & Video Battery</h1>
+        <p className="leading-relaxed">
+            Designed for photographers and videographers, our Lithium Ion Battery provides reliable, long-lasting power, 
+            ensuring you never miss a moment. Trusted for its durability and efficient energy delivery, it's the perfect 
+            choice for high-performance shooting.
+        </p>
     </div>
-  </div>
-</section>
-<div className="mx-[10%]   sm:mx-[10%] mb-10">
-    <h1 className="text-[25px]">FAQ</h1>
-{/* <AccordionDemo></AccordionDemo> */}
 </div>
-<section className="text-gray-600 bg-red-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
-    <h1 className="text-3xl font-medium title-font text-white mb-12 text-center">Testimonials</h1>
+
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="flex relative">
+    <img alt="SC308 Duo Battery LCD Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517000/swissco/SC308_Duo_Battery_LCD_Charger_mnwvni.jpg" />
+    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+        <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">DUAL CHARGING MADE EASY</h2>
+        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">SC308 Duo Battery LCD Charger</h1>
+        <p className="leading-relaxed">
+            The SC308 Duo Battery LCD Charger offers efficient, dual-port charging with a clear LCD display for real-time 
+            battery status. Engineered for versatility, it’s an essential tool for on-the-go professionals who rely on 
+            consistent, reliable power for their equipment.
+        </p>
+    </div>
+</div>
+
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="flex relative">
+    <img alt="ST CP-2L Battery & Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517117/swissco/ST_CP-2L_Battery_Charger_kspkik.jpg" />
+    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+        <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">COMPACT & RELIABLE POWER</h2>
+        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">ST CP-2L Battery & Charger</h1>
+        <p className="leading-relaxed">
+            The ST CP-2L Battery & Charger is designed for convenience and performance, providing fast and efficient charging 
+            for a wide range of devices. Compact and travel-friendly, it’s an ideal power solution for professionals who 
+            need reliability on the go.
+        </p>
+    </div>
+</div>
+
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="flex relative">
+    <img alt="Uni-App Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517173/swissco/Uni-App_Charger_vlaxhb.jpg" />
+    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+        <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">UNIVERSAL CHARGING SOLUTION</h2>
+        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Uni-App Charger</h1>
+        <p className="leading-relaxed">
+            The Uni-App Charger brings universal compatibility and high-speed charging to your devices, making it a 
+            versatile addition to any professional’s toolkit. Compact and efficient, it’s built to power up multiple 
+            device types, ensuring seamless performance wherever you go.
+        </p>
+    </div>
+</div>
+
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="flex relative">
+    <img alt="DL608 USB Twin Battery Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517245/swissco/DL608_USB_Twin_Battery_Charger_fsafei.jpg" />
+    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+        <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">DUAL CHARGING POWER</h2>
+        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">DL608 USB Twin Battery Charger</h1>
+        <p className="leading-relaxed">
+            The DL608 USB Twin Battery Charger is designed for efficiency and convenience, allowing you to charge 
+            two batteries simultaneously via USB. Its compact design makes it ideal for travel, while the fast-charging 
+            technology ensures your devices are powered up and ready when you need them most.
+        </p>
+    </div>
+</div>
+
+      </div>
+      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="flex relative">
+    <img alt="USB Camera Battery With Type-C Input" className="absolute inset-0 w-full h-full object-cover object-center" 
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517321/swissco/USB_Camera_Battery_With_type-C_input_ayrnwk.png" />
+    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+        <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">ENHANCED CONNECTIVITY</h2>
+        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">USB Camera Battery with Type-C Input</h1>
+        <p className="leading-relaxed">
+            Experience seamless charging with the USB Camera Battery featuring a Type-C input. This battery offers 
+            rapid charging capabilities, versatile connectivity, and is ideal for photographers needing reliable power 
+            on the go. Compact and efficient, it keeps your equipment ready whenever you are.
+        </p>
+    </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{/* <div className="mx-[10%]   sm:mx-[10%] mb-10">
+    <h1 className="text-[25px]">FAQ</h1>
+<AccordionDemo></AccordionDemo>
+</div> */}
+<section className="bg-red-600 text-gray-600 body-font py-24">
+  <div className="container mx-auto px-5">
+    <h1 className="text-3xl font-medium text-white mb-12 text-center">Testimonials</h1>
     <div className="flex flex-wrap -m-4">
-      <div className="p-4 md:w-1/2 w-full">
+      <div className="w-full md:w-1/2 p-4">
         <div className="h-full bg-gray-100 p-8 rounded-3xl">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
-          <p className="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
-          <a className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
-            <span className="flex-grow flex flex-col pl-4">
-              <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
+          <p className="leading-relaxed mb-6">"Swissco’s products have completely changed our workflow, making everything more efficient and reliable. I would recommend them to anyone looking for top-quality tech solutions."</p>
+          <div className="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full object-cover"/>
+            <div className="pl-4">
+              <span className="text-gray-900 font-medium">Holden Caulfield</span>
               <span className="text-gray-500 text-sm">UI DEVELOPER</span>
-            </span>
-          </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="p-4 md:w-1/2 w-full">
+      <div className="w-full md:w-1/2 p-4">
         <div className="h-full bg-gray-100 p-8 rounded-3xl">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
-          <p className="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
-          <a className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
-            <span className="flex-grow flex flex-col pl-4">
-              <span className="title-font font-medium text-gray-900">Alper Kamu</span>
+          <p className="leading-relaxed mb-6">"Exceptional design and functionality! Swissco’s chargers and batteries are a game-changer for our media production team."</p>
+          <div className="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full object-cover"/>
+            <div className="pl-4">
+              <span className="text-gray-900 font-medium">Alper Kamu</span>
               <span className="text-gray-500 text-sm">DESIGNER</span>
-            </span>
-          </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 </div>
   );
