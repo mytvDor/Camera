@@ -10,7 +10,7 @@ export default function MHome() {
       <img className="object-cover object-center rounded" alt="hero" src="https://res.cloudinary.com/de6u5kbiw/image/upload/c_crop,w_750,h_600/v1731481280/swissco/jgcova9bfyl1n8ykwtzl.png"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-  <h1 className="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900">
+  <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-100 bg-red-600 p-5 rounded-2xl">
     Elevate Your Photography
     <br className="hidden lg:inline-block" /> with Premium Accessories
   </h1>
@@ -338,10 +338,10 @@ export default function MHome() {
           </svg>
           <p className="leading-relaxed mb-6">"Swissco’s products have completely changed our workflow, making everything more efficient and reliable. I would recommend them to anyone looking for top-quality tech solutions."</p>
           <div className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full object-cover"/>
+            {/* <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full object-cover"/> */}
             <div className="pl-4">
               <span className="text-gray-900 font-medium">Holden Caulfield</span>
-              <span className="text-gray-500 text-sm">UI DEVELOPER</span>
+              <span className="text-gray-500 ml-4 text-sm">UI DEVELOPER</span>
             </div>
           </div>
         </div>
@@ -353,10 +353,10 @@ export default function MHome() {
           </svg>
           <p className="leading-relaxed mb-6">"Exceptional design and functionality! Swissco’s chargers and batteries are a game-changer for our media production team."</p>
           <div className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full object-cover"/>
+            {/* <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full object-cover"/> */}
             <div className="pl-4">
               <span className="text-gray-900 font-medium">Alper Kamu</span>
-              <span className="text-gray-500 text-sm">DESIGNER</span>
+              <span className="text-gray-500 ml-4 text-sm">DESIGNER</span>
             </div>
           </div>
         </div>
