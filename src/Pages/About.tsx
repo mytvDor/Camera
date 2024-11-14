@@ -5,7 +5,7 @@ export default function About() {
 
   return (
     <div className="bg-white">
-    <section className="py-24 relative">
+    <section className="py-10 relative">
        <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
            <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
                <div
@@ -30,8 +30,8 @@ export default function About() {
                        </div>
                        <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
                            <div className="flex-col justify-start items-start inline-flex">
-                               <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">20+</h3>
-                               <h6 className="text-gray-500 text-base font-normal leading-relaxed">Years of Experience</h6>
+                               <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal mt-7">20+</h3>
+                               <h6 className="text-gray-500 text-base font-normal leading-relaxed">years of <br/>Experience</h6>
                            </div>
                            <div className="flex-col justify-start items-start inline-flex">
                                <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">100+</h4>
@@ -51,7 +51,7 @@ export default function About() {
            </div>
        </div>
    </section>
-   <section className="py-24 relative xl:mr-0 lg:mr-5 mr-0">
+   <section className="py-10 relative xl:mr-0 lg:mr-5 mr-0">
     <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
         <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
             <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
@@ -110,12 +110,13 @@ export default function About() {
     </div>
 </section>
 
-<section className="py-24 relative">
+<section className="py-5 relative">
     <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
         <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
-            <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" 
+        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" 
                 src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731562548/swissco/pexels-markusspiske-1268121_kr1u9w.jpg" alt="About Us image" />
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
+           
+        <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
                 <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
                     <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                         Our Mission
@@ -127,6 +128,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
+           
         </div>
     </div>
 </section>

@@ -2,7 +2,7 @@
 // import Link from 'next/link'
 // import { Button } from '@/components/ui/button'
 // import { Input } from '@/components/ui/input'
-import { Linkedin ,  Instagram } from 'lucide-react'
+import { Facebook ,  Instagram } from 'lucide-react'
 
 export default function Footer() {
   // const [email, setEmail] = useState('')
@@ -51,7 +51,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
               </a> */}
               <a href="https://linkedin.com" className="text-zinc-400 hover:text-zinc-100">
-                <Linkedin  className="h-6 w-6" />
+                <Facebook  className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a href="https://instagram.com" className="text-zinc-400 hover:text-zinc-100">
