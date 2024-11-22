@@ -31,13 +31,13 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-4 text-lg font-semibold">Legal</h2>
-            <ul className="space-y-2">
-              <li><a href="/legal#privacy" className="hover:text-zinc-300">Privacy Policy</a></li>
-              <li><a href="/legal#terms" className="hover:text-zinc-300">Terms of Service</a></li>
+            {/* <h2 className="mb-4 text-lg font-semibold">Legal</h2>
+            <ul className="space-y-2"> */}
+              {/* <li><a href="/legal#privacy" className="hover:text-zinc-300">Privacy Policy</a></li>
+              <li><a href="/legal#terms" className="hover:text-zinc-300">Terms of Service</a></li> */}
               {/* <li><a href="/legal#cookies" className="hover:text-zinc-300">Cookie Policy</a></li>
               <li><a href="/legal#gdpr" className="hover:text-zinc-300">GDPR Compliance</a></li> */}
-            </ul>
+            {/* </ul> */}
           </div>
           <div>
             <h2 className="mb-4 text-lg font-semibold">Connect with Us</h2>

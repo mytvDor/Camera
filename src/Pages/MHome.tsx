@@ -3,14 +3,14 @@ import { Camera, Battery, Eye, Users } from 'lucide-react'
 export default function MHome() {
 
   return (
-<div className="bg-white m-5">
+<div className="bg-white m-1">
 <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img className="object-cover object-center rounded" alt="hero" src="https://res.cloudinary.com/de6u5kbiw/image/upload/c_crop,w_750,h_600/v1731481280/swissco/jgcova9bfyl1n8ykwtzl.png"/>
+      <img className="object-cover object-center rounded" alt="hero" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732273240/swissco/Screenshot_from_2024-11-22_16-30-23_nvorwk.png"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-  <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-100 bg-red-600 p-5 rounded-2xl">
+  <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-100rounded-2xl">
     Elevate Your Photography
     <br className="hidden lg:inline-block" /> with Premium Accessories
   </h1>
@@ -333,7 +333,8 @@ export default function MHome() {
     <h1 className="text-[25px]">FAQ</h1>
 <AccordionDemo></AccordionDemo>
 </div> */}
-<section className="bg-red-600 rounded-3xl m-3 text-gray-600 body-font py-24">
+
+{/* <section className="bg-red-600 rounded-3xl m-3 text-gray-600 body-font py-24">
   <div className="container mx-auto px-5">
     <h1 className="text-3xl font-medium text-white mb-12 text-center">Testimonials</h1>
     <div className="flex flex-wrap -m-4">
@@ -344,7 +345,7 @@ export default function MHome() {
           </svg>
           <p className="leading-relaxed mb-6">"Swissco’s products have completely changed our workflow, making everything more efficient and reliable. I would recommend them to anyone looking for top-quality tech solutions."</p>
           <div className="inline-flex items-center">
-            {/* <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full object-cover"/> */}
+            // <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full object-cover"/> 
             <div className="pl-4">
               <span className="text-gray-900 font-medium">Holden Caulfield</span>
               <span className="text-gray-500 ml-4 text-sm">UI DEVELOPER</span>
@@ -359,7 +360,7 @@ export default function MHome() {
           </svg>
           <p className="leading-relaxed mb-6">"Exceptional design and functionality! Swissco’s chargers and batteries are a game-changer for our media production team."</p>
           <div className="inline-flex items-center">
-            {/* <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full object-cover"/> */}
+            // <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full object-cover"/>
             <div className="pl-4">
               <span className="text-gray-900 font-medium">Alper Kamu</span>
               <span className="text-gray-500 ml-4 text-sm">DESIGNER</span>
@@ -369,7 +370,7 @@ export default function MHome() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
 </div>

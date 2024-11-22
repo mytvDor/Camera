@@ -11,7 +11,7 @@ export default function Products() {
       category: 'DUAL CHARGING MADE EASY',
       title: 'SC308 Duo Battery LCD Charger',
       description: 'The SC308 Duo Battery LCD Charger offers efficient, dual-port charging with a clear LCD display for real-time battery status. Engineered for versatility, it’s an essential tool for on-the-go professionals.',
-      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517000/swissco/SC308_Duo_Battery_LCD_Charger_mnwvni.jpg',
+      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732274191/swissco/117ad450-689e-46f7-9383-d4214f8a2f50.png',
       price: 'Contact for Price', 
     },
     {
@@ -32,7 +32,7 @@ export default function Products() {
       category: 'DUAL CHARGING POWER',
       title: 'DL608 USB Twin Battery Charger',
       description: 'The DL608 USB Twin Battery Charger is designed for efficiency and convenience, allowing you to charge two batteries simultaneously via USB. Its compact design makes it ideal for travel.',
-      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517245/swissco/DL608_USB_Twin_Battery_Charger_fsafei.jpg',
+      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732274070/swissco/8a0739cc-3b16-4b0b-8e0c-6743d26d8a41.png',
       price: 'Contact for Price',
     },
     {
