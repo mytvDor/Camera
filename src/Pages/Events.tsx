@@ -1,4 +1,5 @@
 import { MapPin } from 'lucide-react';
+import Slider from '@/Comps/Slider';
 
 export default function Events() {
  
@@ -13,22 +14,22 @@ export default function Events() {
       image: 'https://www.si.com/.image/t_share/MTY4MTkyMjczODM4OTc0ODQ5/cfp-trophy-deitschjpg.jpg',
       logo: 'https://collegefootballplayoff.com/images/section_logo.png'
     },
-    {
-      id: 2,
-      date: 'Jan 13',
-      time: '7 pm',
-      title: '2020 National Championship',
-      description: 'The College Football Playoff (CFP) determines the national champion of the top division of college football.',
-      location: 'Mercedes-Benz Superdome',
-      image: 'https://www.si.com/.image/t_share/MTY4MTkyMjczODM4OTc0ODQ5/cfp-trophy-deitschjpg.jpg',
-      logo: 'https://collegefootballplayoff.com/images/section_logo.png'
-    },
+    // {
+    //   id: 2,
+    //   date: 'Jan 13',
+    //   time: '7 pm',
+    //   title: '2020 National Championship',
+    //   description: 'The College Football Playoff (CFP) determines the national champion of the top division of college football.',
+    //   location: 'Mercedes-Benz Superdome',
+    //   image: 'https://www.si.com/.image/t_share/MTY4MTkyMjczODM4OTc0ODQ5/cfp-trophy-deitschjpg.jpg',
+    //   logo: 'https://collegefootballplayoff.com/images/section_logo.png'
+    // },
     // Add more events as needed
   ];
   return (
     <>
     <div className="mx-auto bg-white-200 min-h-screen flex flex-col items-center justify-center px-8 py-8">
-     
+     <Slider/>
      <h1 className='ml-20 mt-14 text-5xl text-red-600 mb-20 font-bold '>Upcomming Events</h1>
 
       {events.map((event) => (
