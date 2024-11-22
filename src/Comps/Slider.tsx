@@ -1,8 +1,7 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../App.css"; // Optional: for custom styling
+import "../App.css"; 
 
 function ResponsiveSlider() {
   const images = [
