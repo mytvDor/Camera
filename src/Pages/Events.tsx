@@ -43,11 +43,18 @@ OREGAON EAST, MUMBAI, INDIA`,
     // },
     // Add more events as needed
   ];
+
+  const handleOpenPdf = () => {
+    const pdfUrl = "/Mumbai.pdf"; // Path relative to the public folder
+    window.open(pdfUrl, "_blank", "noopener,noreferrer");
+  };
+  
+
   return (
     <>
     <div className="mx-auto bg-white-200 min-h-screen flex flex-col items-center justify-center px-8 py-8">
      <Slider/>
-     <h1 className='ml-20 mt-14 text-5xl text-red-600 mb-20 font-bold '>Upcomming Events</h1>
+     <h1 className=' mt-14 text-5xl text-red-600 mb-20 font-bold '>Upcomming Events</h1>
 
       {events.map((event) => (
         <div key={event.id} className="flex flex-col w-full max-w-4xl bg-white rounded-2xl shadow-lg mb-8">
@@ -61,6 +68,7 @@ OREGAON EAST, MUMBAI, INDIA`,
               <div className="text-3xl">{event.date.split(' ')[0]}</div>
               <div className="text-6xl">{event.date.split(' ')[1]}</div>
               <div className="text-xl">{event.time}</div>
+              <div className="text-m cursor-pointer" onClick={handleOpenPdf}>{`>> More Info <<`}</div>
             </div>
 
             {/* Right Section with Event Details */}
