@@ -50,9 +50,9 @@ export default function Footer() {
                 <Twitter className="h-6 w-6" />
                 <span className="sr-only">Twitter</span>
               </a> */}
-              <a href="https://linkedin.com" className="text-zinc-400 hover:text-zinc-100">
+              <a href="https://www.facebook.com/swisscophoto/photos" className="text-zinc-400 hover:text-zinc-100">
                 <Facebook  className="h-6 w-6" />
-                <span className="sr-only">LinkedIn</span>
+                <span className="sr-only"></span>
               </a>
               <a href="https://instagram.com" className="text-zinc-400 hover:text-zinc-100">
                 <Instagram className="h-6 w-6" />

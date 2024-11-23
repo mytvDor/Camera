@@ -53,7 +53,7 @@ OREGAON EAST, MUMBAI, INDIA`,
   return (
     <>
     <div className="mx-auto bg-white-200 min-h-screen flex flex-col items-center justify-center px-8 py-8">
-     <Slider/>
+     
      <h1 className=' mt-14 text-5xl text-red-600 mb-20 font-bold '>Upcomming Events</h1>
 
       {events.map((event) => (
@@ -74,9 +74,9 @@ OREGAON EAST, MUMBAI, INDIA`,
             {/* Right Section with Event Details */}
             <div className="flex flex-col p-4 font-normal text-gray-800 md:w-3/4">
               <h1 className="mb-4 text-3xl font-bold text-red-600">{event.title}</h1>
-              <p className="leading-normal text-gray-700">{event.description}</p>
+              <p className="leading-normal text-gray-700 ">{event.description}</p>
               <div className="flex items-center mt-4">
-                <div className="text-gray-700 flex items-center ">      <MapPin className="w-8 h-8 mr-2 text-red-600" />{event.location}</div>
+                <div className="text-gray-700 flex items-center font-bold">      <MapPin className="w-8 h-8 mr-2 text-red-600" />{event.location}</div>
                 <div className="flex justify-end w-1/2">
                   <img src={event.logo} alt={`${event.title} logo`} className="w-10" />
                 </div>
@@ -85,7 +85,7 @@ OREGAON EAST, MUMBAI, INDIA`,
           </div>
         </div>
       ))}
-
+      <Slider/>
     </div>
     </>
   );
