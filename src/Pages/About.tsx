@@ -1,4 +1,4 @@
-
+import CountUp from "react-countup";
 export default function About() {
  
  
@@ -30,19 +30,31 @@ export default function About() {
                        </div>
                        {/*  remove Flext and add grid, Animation on counter --------------------------------*/}
                        <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex lg:space-x-20">
-                           <div className="flex-col justify-start items-start inline-flex">
-                               <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">20+</h3>
-                               <h6 className="text-gray-500 text-base font-normal leading-relaxed">Years of Experience</h6>
-                           </div>
-                           <div className="flex-col justify-start items-start inline-flex">
-                               <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">100+</h4>
-                               <h6 className="text-gray-500 text-base font-normal leading-relaxed">Products</h6>
-                           </div>
-                           <div className="flex-col justify-start items-start inline-flex">
-                               <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">52K+</h4>
-                               <h6 className="text-gray-500 text-base font-normal leading-relaxed">Happy Clients</h6>
-                           </div>
-                       </div>
+            <div className="flex-col justify-start items-start inline-flex">
+                <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
+                    <CountUp end={20} suffix="+" duration={3.5} />
+                </h3>
+                <h6 className="text-gray-500 text-base font-normal leading-relaxed">
+                    Years of Experience
+                </h6>
+            </div>
+            <div className="flex-col justify-start items-start inline-flex">
+                <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
+                    <CountUp end={100} suffix="+" duration={3.5} />
+                </h4>
+                <h6 className="text-gray-500 text-base font-normal leading-relaxed">
+                    Products
+                </h6>
+            </div>
+            <div className="flex-col justify-start items-start inline-flex">
+                <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
+                    <CountUp end={52} suffix="K+" duration={3.5} /> 
+                </h4>
+                <h6 className="text-gray-500 text-base font-normal leading-relaxed">
+                    Happy Clients
+                </h6>
+            </div>
+        </div>
                    </div>
                    {/* <button
                        className="sm:w-fit w-full px-3.5 py-2 bg-red-600 hover:bg-red-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
@@ -73,13 +85,13 @@ export default function About() {
                     <div className="w-full flex-col justify-center items-start gap-6 flex">
                         <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                             <div className="min-h-[8rem] w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">30+ Years</h4>
+                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={30} suffix="+" duration={3.5} />  Years</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     A Legacy in the Camera Industry
                                 </p>
                             </div>
                             <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">20+ Countries</h4>
+                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={20} suffix="+" duration={3.5} />  Countries</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Reaching Markets Globally
                                 </p>
@@ -87,13 +99,13 @@ export default function About() {
                         </div>
                         <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                             <div className="min-h-[8rem] w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">60K+ Customers</h4>
+                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={60} suffix="K+" duration={3.5} />  Customers</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Loyalty Built on Quality and Trust
                                 </p>
                             </div>
                             <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">99% Satisfaction</h4>
+                                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={99} suffix="%" duration={3.5} />  Satisfaction</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Our Commitment to Client Happiness
                                 </p>
