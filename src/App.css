@@ -1,8 +1,17 @@
 .slider-container {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
+    
   }
-  
+
+.sliders-cards
+{
+  margin: 1rem;
+}
+  .slide
+  {
+    padding: 1rem;
+  }
   .slide img {
     width: 100%;
     height: auto;

@@ -28,10 +28,11 @@ export default function About() {
                             in the UAE, we have been dedicated to delivering premium products and customer satisfaction across Southeast 
                             Asia, Asia, the Middle East, South Africa, and Europe for over two decades.</p>
                        </div>
-                       <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
+                       {/*  remove Flext and add grid, Animation on counter --------------------------------*/}
+                       <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex lg:space-x-20">
                            <div className="flex-col justify-start items-start inline-flex">
-                               <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal mt-7">20+</h3>
-                               <h6 className="text-gray-500 text-base font-normal leading-relaxed">years of <br/>Experience</h6>
+                               <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">20+</h3>
+                               <h6 className="text-gray-500 text-base font-normal leading-relaxed">Years of Experience</h6>
                            </div>
                            <div className="flex-col justify-start items-start inline-flex">
                                <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">100+</h4>
@@ -68,9 +69,10 @@ export default function About() {
                             </p>
                         </div>
                     </div>
+                    {/*  Animation on counter -------------------------------- */}
                     <div className="w-full flex-col justify-center items-start gap-6 flex">
                         <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                            <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className="min-h-[8rem] w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">30+ Years</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     A Legacy in the Camera Industry
@@ -84,7 +86,7 @@ export default function About() {
                             </div>
                         </div>
                         <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                            <div className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className="min-h-[8rem] w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">60K+ Customers</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Loyalty Built on Quality and Trust

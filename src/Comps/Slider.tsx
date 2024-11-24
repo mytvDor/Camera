@@ -16,7 +16,7 @@ function ResponsiveSlider() {
     dots: true, // Enable navigation dots
     infinite: true, // Infinite loop
     speed: 500, // Transition speed
-    slidesToShow: 1, // Show one slide at a time
+    slidesToShow: 3, // Show one slide at a time
     slidesToScroll: 1, // Scroll one slide at a time
     autoplay: true, // Enable autoplay
     autoplaySpeed: 3000, // Set autoplay speed
@@ -38,7 +38,7 @@ function ResponsiveSlider() {
 
   return (
     <div className="slider-container">
-      <Slider {...settings}>
+      <Slider {...settings} className="sliders-cards">
         {images.map((url, index) => (
           <div key={index} className="slide">
             <img src={url} alt={`Slide ${index + 1}`} className="slider-image" />

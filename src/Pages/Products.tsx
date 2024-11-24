@@ -4,7 +4,7 @@ export default function Products() {
       category: 'HIGH-PERFORMANCE POWER',
       title: 'Lithium Ion Camera & Video Battery',
       description: 'Designed for photographers and videographers, our Lithium Ion Battery provides reliable, long-lasting power, ensuring you never miss a moment. Trusted for its durability and efficient energy delivery, it\'s the perfect choice for high-performance shooting.',
-      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731516836/swissco/Lithium_Lon_Camera_video_Battery_q7orak.webp',
+      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732436912/swissco/product/61abe649-4727-403e-80f5-ad59f53bf0cd.png',
       price: 'Contact for Price', // Assuming price info isn't provided
     },
     {
@@ -18,14 +18,14 @@ export default function Products() {
       category: 'COMPACT & RELIABLE POWER',
       title: 'ST CP-2L Battery & Charger',
       description: 'The ST CP-2L Battery & Charger is designed for convenience and performance, providing fast and efficient charging for a wide range of devices. Compact and travel-friendly, it’s an ideal power solution.',
-      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517117/swissco/ST_CP-2L_Battery_Charger_kspkik.jpg',
+      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732436944/swissco/product/7f1e1d3a-33fe-4d6e-a360-ba57e0997be1.png',
       price: 'Contact for Price', 
     },
     {
       category: 'UNIVERSAL CHARGING SOLUTION',
       title: 'Uni-App Charger',
       description: 'The Uni-App Charger brings universal compatibility and high-speed charging to your devices, making it a versatile addition to any professional’s toolkit.',
-      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517173/swissco/Uni-App_Charger_vlaxhb.jpg',
+      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732436963/swissco/product/8609ded7-d887-4146-9be7-37faf26e830a.png',
       price: 'Contact for Price', 
     },
     {
@@ -39,7 +39,7 @@ export default function Products() {
       category: 'ENHANCED CONNECTIVITY',
       title: 'USB Camera Battery with Type-C Input',
       description: 'Experience seamless charging with the USB Camera Battery featuring a Type-C input. Ideal for photographers needing reliable power on the go.',
-      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517321/swissco/USB_Camera_Battery_With_type-C_input_ayrnwk.png',
+      imgSrc: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732437027/swissco/product/fafe27fb-077f-4d13-9c41-93050b1bd1d0.png',
       price: 'Contact for Price',
     }
   ];

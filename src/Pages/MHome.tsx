@@ -233,7 +233,7 @@ export default function MHome() {
       <div className="lg:w-1/3 sm:w-1/2 p-4">
       <div className="flex relative">
     <img alt="Lithium Ion Camera & Video Battery" className="absolute inset-0 w-full h-full object-cover object-center" 
-         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731516836/swissco/Lithium_Lon_Camera_video_Battery_q7orak.webp" />
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732436912/swissco/product/61abe649-4727-403e-80f5-ad59f53bf0cd.png" />
     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
         <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">HIGH-PERFORMANCE POWER</h2>
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Lithium Ion Camera & Video Battery</h1>
@@ -249,7 +249,7 @@ export default function MHome() {
       <div className="lg:w-1/3 sm:w-1/2 p-4">
       <div className="flex relative">
     <img alt="SC308 Duo Battery LCD Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
-         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517000/swissco/SC308_Duo_Battery_LCD_Charger_mnwvni.jpg" />
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732274191/swissco/117ad450-689e-46f7-9383-d4214f8a2f50.png" />
     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
         <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">DUAL CHARGING MADE EASY</h2>
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">SC308 Duo Battery LCD Charger</h1>
@@ -265,7 +265,7 @@ export default function MHome() {
       <div className="lg:w-1/3 sm:w-1/2 p-4">
       <div className="flex relative">
     <img alt="ST CP-2L Battery & Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
-         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517117/swissco/ST_CP-2L_Battery_Charger_kspkik.jpg" />
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732436944/swissco/product/7f1e1d3a-33fe-4d6e-a360-ba57e0997be1.png" />
     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
         <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">COMPACT & RELIABLE POWER</h2>
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">ST CP-2L Battery & Charger</h1>
@@ -281,7 +281,7 @@ export default function MHome() {
       <div className="lg:w-1/3 sm:w-1/2 p-4">
       <div className="flex relative">
     <img alt="Uni-App Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
-         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517173/swissco/Uni-App_Charger_vlaxhb.jpg" />
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732436963/swissco/product/8609ded7-d887-4146-9be7-37faf26e830a.png" />
     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
         <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">UNIVERSAL CHARGING SOLUTION</h2>
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Uni-App Charger</h1>
@@ -297,7 +297,7 @@ export default function MHome() {
       <div className="lg:w-1/3 sm:w-1/2 p-4">
       <div className="flex relative">
     <img alt="DL608 USB Twin Battery Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
-         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517245/swissco/DL608_USB_Twin_Battery_Charger_fsafei.jpg" />
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732274070/swissco/8a0739cc-3b16-4b0b-8e0c-6743d26d8a41.png" />
     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
         <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">DUAL CHARGING POWER</h2>
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">DL608 USB Twin Battery Charger</h1>
@@ -313,7 +313,7 @@ export default function MHome() {
       <div className="lg:w-1/3 sm:w-1/2 p-4">
       <div className="flex relative">
     <img alt="USB Camera Battery With Type-C Input" className="absolute inset-0 w-full h-full object-cover object-center" 
-         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517321/swissco/USB_Camera_Battery_With_type-C_input_ayrnwk.png" />
+         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732437027/swissco/product/fafe27fb-077f-4d13-9c41-93050b1bd1d0.png" />
     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
         <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">ENHANCED CONNECTIVITY</h2>
         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">USB Camera Battery with Type-C Input</h1>

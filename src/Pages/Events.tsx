@@ -1,6 +1,6 @@
 import { MapPin } from 'lucide-react';
 import Slider from '@/Comps/Slider';
-
+import '../App.css'
 export default function Events() {
  
   const events = [

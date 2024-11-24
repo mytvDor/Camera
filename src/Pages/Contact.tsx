@@ -124,7 +124,9 @@ export default function Contact() {
                   Phone Number
                 </h6>
                 <h3 className="text-red-600 text-xl font-semibold leading-8 md:text-start text-center">
-                  +65 80399982 | 80399973
+                  +65 80399982  
+                  <br />
+                  +65 80399973
                 </h3>
               </div>
               <div className="mb-8">
@@ -139,11 +141,11 @@ export default function Contact() {
               </div>
               <div>
                 <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">
-                  LinkedIn
+                  Instagram
                 </h6>
                 <h3 className="text-black text-xl font-semibold leading-8 md:text-start text-center">
                   <a href="https://linkedin.com/in/yourlinkedinhandle" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">
-                    LinkedIn Profile
+                  Instagram
                   </a>
                 </h3>
               </div>
