@@ -59,9 +59,10 @@ OREGAON EAST, MUMBAI, INDIA`,
       {events.map((event) => (
         <div key={event.id} className="flex flex-col w-full max-w-4xl bg-white rounded-2xl shadow-lg mb-8">
           <div
-            className="w-full h-64 bg-top bg-cover rounded-t"
-            style={{ backgroundImage: `url(${event.image})` }}
-          ></div>
+  className="w-full h-64 bg-top bg-contain bg-no-repeat rounded-t"
+  style={{ backgroundImage: `url(${event.image})` }}
+></div>
+
           <div className="flex flex-col w-full md:flex-row">
             {/* Left Section with Date and Time */}
             <div className="flex flex-col items-center justify-center p-4 font-bold text-gray-100 uppercase bg-red-600 rounded md:w-1/4">
@@ -76,7 +77,8 @@ OREGAON EAST, MUMBAI, INDIA`,
               <h1 className="mb-4 text-3xl font-bold text-red-600">{event.title}</h1>
               <p className="leading-normal text-gray-700 ">{event.description}</p>
               <div className="flex items-center mt-4">
-                <div className="text-gray-700 flex items-center font-bold">      <MapPin className="w-8 h-8 mr-2 text-red-600" />{event.location}</div>
+                <div className="text-gray-700 flex items-center font-bold">      
+                  <MapPin className="w-8 h-8 mr-2 text-red-600" />{event.location}</div>
                 <div className="flex justify-end w-1/2">
                   <img src={event.logo} alt={`${event.title} logo`} className="w-10" />
                 </div>
