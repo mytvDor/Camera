@@ -1,19 +1,46 @@
 import { Link } from "react-router-dom"
 import { Camera, Battery, Eye, Users } from 'lucide-react'
+import '../App.css'
 export default function MHome() {
 
   return (
 <div className="bg-white m-1">
+
 <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img className="object-cover object-center rounded" alt="hero" src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732273240/swissco/Screenshot_from_2024-11-22_16-30-23_nvorwk.png"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-  <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-100rounded-2xl">
+    <div className="flex flex-col items-center md:items-start px-4  w-full">
+  <div className="flex flex-wrap items-center justify-between w-full">
+    {/* Left Image */}
+    <img
+      src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732556218/swissco/content/9bc5cd95-7c53-4c70-9d82-b1fabf9c44a2.png"
+      alt="Left"
+      className="w-1/2 md:w-1/3 max-w-[150px] rounded-md shadow-md"
+    />
+
+    {/* Right Image */}
+    <img
+      src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732556228/swissco/content/77464297-f5ba-41fc-a275-2cb7ef90b985.png"
+      alt="Right"
+      className="w-1/2 md:w-1/3 max-w-[100px] rounded-md shadow-md self-end"
+    />
+  </div>
+
+  {/* Heading */}
+  <h1 className="title-font sm:text-4xl text-3xl  font-bold text-gray-800 text-center md:text-left">
     Elevate Your Photography
     <br className="hidden lg:inline-block" /> with Premium Accessories
   </h1>
+</div>
+
+  {/* <h1 className="title-font sm:text-4xl text-4xl mb-4 font-bold text-gray-100rounded-2xl">
+    Elevate Your Photography
+    <br className="hidden lg:inline-block" /> with Premium Accessories
+  </h1> */}
+ 
   <p className="mb-8 leading-relaxed">
     Discover high-quality camera accessories and power solutions trusted by professionals worldwide. From batteries and chargers to tripods and lights, SWISSCO Technology (Industries) Pte. Ltd. has been enhancing the art of photography since 2003.
   </p>

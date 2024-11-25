@@ -29,32 +29,29 @@ export default function About() {
                             Asia, Asia, the Middle East, South Africa, and Europe for over two decades.</p>
                        </div>
                        {/*  remove Flext and add grid, Animation on counter --------------------------------*/}
-                       <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex lg:space-x-20">
-            <div className="flex-col justify-start items-start inline-flex">
-                <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
-                    <CountUp end={20} suffix="+" duration={3.5} />
-                </h3>
-                <h6 className="text-gray-500 text-base font-normal leading-relaxed">
-                    Years of Experience
-                </h6>
-            </div>
-            <div className="flex-col justify-start items-start inline-flex">
-                <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
-                    <CountUp end={100} suffix="+" duration={3.5} />
-                </h4>
-                <h6 className="text-gray-500 text-base font-normal leading-relaxed">
-                    Products
-                </h6>
-            </div>
-            <div className="flex-col justify-start items-start inline-flex">
-                <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">
-                    <CountUp end={52} suffix="K+" duration={3.5} /> 
-                </h4>
-                <h6 className="text-gray-500 text-base font-normal leading-relaxed">
-                    Happy Clients
-                </h6>
-            </div>
-        </div>
+                       <div className="w-full grid grid-cols-3 gap-1 text-center">
+                            {/* Row 1: Counters */}
+                            <div className="flex flex-col items-center justify-center text-gray-900 text-4xl font-bold font-manrope">
+                                <CountUp end={20} suffix="+" duration={3.5} />
+                            </div>
+                            <div className="flex flex-col items-center justify-center text-gray-900 text-4xl font-bold font-manrope">
+                                <CountUp end={100} suffix="+" duration={3.5} />
+                            </div>
+                            <div className="flex flex-col items-center justify-center text-gray-900 text-4xl font-bold font-manrope">
+                                <CountUp end={52} suffix="K+" duration={3.5} />
+                            </div>
+
+                            {/* Row 2: Text */}
+                            <div className="flex flex-col items-center justify-center text-gray-500 text-base font-normal leading-relaxed">
+                                Years of Experience
+                            </div>
+                            <div className="flex flex-col items-center justify-center text-gray-500 text-base font-normal leading-relaxed">
+                                Products
+                            </div>
+                            <div className="flex flex-col items-center justify-center text-gray-500 text-base font-normal leading-relaxed">
+                                Happy Clients
+                            </div>
+                        </div>
                    </div>
                    {/* <button
                        className="sm:w-fit w-full px-3.5 py-2 bg-red-600 hover:bg-red-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
@@ -117,7 +114,7 @@ export default function About() {
             <div className="w-full lg:justify-start justify-center items-start flex">
                 <div className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">
                     <img className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
-                        src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731517173/swissco/Uni-App_Charger_vlaxhb.jpg" alt="About Us image" />
+                        src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732437027/swissco/product/fafe27fb-077f-4d13-9c41-93050b1bd1d0.png" alt="About Us image" />
                 </div>
             </div>
         </div>
@@ -128,7 +125,7 @@ export default function About() {
     <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
         <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
         <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" 
-                src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731562548/swissco/pexels-markusspiske-1268121_kr1u9w.jpg" alt="About Us image" />
+                src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732556964/swissco/content/c03656b8-3ae2-46f9-a1d9-43f7ff135f9f.png" alt="About Us image" />
            
         <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
                 <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">

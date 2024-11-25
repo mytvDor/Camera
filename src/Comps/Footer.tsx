@@ -54,7 +54,7 @@ export default function Footer() {
                 <Facebook  className="h-6 w-6" />
                 <span className="sr-only"></span>
               </a>
-              <a href="https://instagram.com" className="text-zinc-400 hover:text-zinc-100">
+              <a href="https://www.instagram.com/swissco_photo/" className="text-zinc-400 hover:text-zinc-100">
                 <Instagram className="h-6 w-6" />
                 <span className="sr-only">Instagram</span>
               </a>

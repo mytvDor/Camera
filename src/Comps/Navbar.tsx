@@ -38,20 +38,32 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-40 flex  h-20 w-full shrink-0 items-center px-4 md:px-6 border-b border-zinc-700 bg-zinc-800/45 backdrop-blur-md">
+     
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
-        <SheetTrigger asChild>
-        
-          <Button variant="outline" size="icon" className="lg:hidden bg-transparent border-[0px] hover:bg-transparent">
-            <MenuIcon className="h-6 w-6 text-white hover:text-black" />
-            <span className="sr-only">Toggle navigation menu</span>
-          </Button>
-        </SheetTrigger>
-        <SheetContent side="left" className="text-white bg-zinc-300/15 backdrop-blur-md">
+        <div className="flex items-center justify-between px-4 py-2 w-full text-white">
+          {/* Logo on the left */}
           <Link to="/">
-            <MountainIcon className="h-6 w-6" />
+            <MountainIcon  />
             <span className="sr-only">Acme Inc</span>
           </Link>
-      
+
+          {/* Hamburger on the right */}
+          <SheetTrigger asChild>
+            <Button
+              variant="outline"
+              size="icon"
+              className="lg:hidden bg-transparent border-0 hover:bg-transparent"
+            >
+              <MenuIcon className="h-6 w-6 text-white hover:text-black" />
+              <span className="sr-only">Toggle navigation menu</span>
+            </Button>
+          </SheetTrigger>
+        </div>
+
+        <SheetContent
+          side="left"
+          className="text-white bg-zinc-300/15 backdrop-blur-md"
+        >
           <div className="grid gap-2 py-6">
             <Link to="/" className={getMobileLinkStyles("/")} onClick={handleMobileClick}>
               Home
@@ -65,17 +77,15 @@ export default function Navbar() {
             <Link to="/events" className={getMobileLinkStyles("/events")} onClick={handleMobileClick}>
               Events
             </Link>
-            {/* <Link to="/support" className={getMobileLinkStyles("/support")} onClick={handleMobileClick}>
-              Support
-            </Link> */}
             <Link to="/contact" className={getMobileLinkStyles("/contact")} onClick={handleMobileClick}>
               Contact
             </Link>
           </div>
         </SheetContent>
       </Sheet>
+
       <Link to="/" className="mr-6 hidden lg:flex">
-        <MountainIcon  />
+        {/* <MountainIcon  />  */}
         <span className="sr-only">Acme Inc</span>
       </Link>
       <NavigationMenu className="hidden lg:flex">
@@ -139,12 +149,15 @@ function MenuIcon(props: any) {
 
 function MountainIcon(props: React.HTMLAttributes<HTMLImageElement>) {
   return (
+    <div className="rounded-full">
     <img
-      src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1731481769/swissco/Swissco_boljbq.png"
+    className="rounded-full"
+      src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732554877/swissco/298ce063-478d-4284-8bb5-e0e7cffaf5c3.png"
       alt="logo"
       height="auto"
-      width="80px"
+      width="50px"
       {...props} 
-    />
+      />
+      </div>
   )
 }

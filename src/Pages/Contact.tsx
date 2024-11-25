@@ -135,7 +135,7 @@ export default function Contact() {
                 </h6>
                 <h3 className="text-black text-xl font-semibold leading-8 md:text-start text-center">
                   <a href="https://instagram.com/yourinstagramhandle" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">
-                    @yourinstagramhandle
+                   @swissco_photo
                   </a>
                 </h3>
               </div>

@@ -28,3 +28,36 @@
     color: #000; /* Arrows color */
   }
   
+
+  /* Global container for image styling */
+.responsive-image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Default styles for laptops */
+.top-right-image {
+  position: absolute;
+  top: 20px; /* Adjust as per laptop needs */
+  right: 20px; /* Adjust as per laptop needs */
+  width: 100px; /* Adjust image size */
+}
+
+/* Tablet-specific styles */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .top-right-image {
+      top: 15px; /* Adjust as per tablet needs */
+      right: 15px; /* Adjust as per tablet needs */
+      width: 80px; /* Adjust image size */
+  }
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+  .top-right-image {
+      top: 10px; /* Adjust as per mobile needs */
+      right: 10px; /* Adjust as per mobile needs */
+      width: 60px; /* Adjust image size */
+  }
+}
