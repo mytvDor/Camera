@@ -81,27 +81,27 @@ export default function About() {
                     {/*  Animation on counter -------------------------------- */}
                     <div className="w-full flex-col justify-center items-start gap-6 flex">
                         <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                            <div className="min-h-[8rem] w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className="min-h-[8rem] max-h-[8rem] w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={30} suffix="+" duration={3.5} />  Years</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     A Legacy in the Camera Industry
                                 </p>
                             </div>
-                            <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className="min-h-[8rem] max-h-[8rem] p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={20} suffix="+" duration={3.5} />  Countries</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Reaching Markets Globally
                                 </p>
                             </div>
                         </div>
-                        <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                            <div className="min-h-[8rem] w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                        <div className=" min-h-[8rem] max-h-[8rem] justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                            <div className="min-h-[8rem] max-h-[8rem] w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={60} suffix="K+" duration={3.5} />  Customers</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Loyalty Built on Quality and Trust
                                 </p>
                             </div>
-                            <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className=" min-h-[8rem] max-h-[8rem] p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={99} suffix="%" duration={3.5} />  Satisfaction</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Our Commitment to Client Happiness

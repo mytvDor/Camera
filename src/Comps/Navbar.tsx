@@ -54,7 +54,7 @@ export default function Navbar() {
               size="icon"
               className="lg:hidden bg-transparent border-0 hover:bg-transparent"
             >
-              <MenuIcon className="h-6 w-6 text-white hover:text-black" />
+              <MenuIcon className="h-10 w-10 text-white hover:text-black" />
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
           </SheetTrigger>
@@ -131,18 +131,18 @@ function MenuIcon(props: any) {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width="94"
+      height="94"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="2"
+      strokeWidth="3"
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <line x1="4" x2="20" y1="12" y2="12" />
-      <line x1="4" x2="20" y1="6" y2="6" />
-      <line x1="4" x2="20" y1="18" y2="18" />
+      <line x1="1" x2="100" y1="12" y2="12" />
+      <line x1="1" x2="100" y1="3" y2="3" />
+      <line x1="1" x2="100" y1="20" y2="20" />
     </svg>
   )
 }

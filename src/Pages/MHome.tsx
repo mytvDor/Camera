@@ -248,8 +248,8 @@ export default function MHome() {
     </section>
 
 <section className="text-gray-600  body-font">
-  <div className="container px-5 py-24 mx-auto">
-  <div className="flex flex-col text-center w-full mb-20">
+  <div className="container px-5 py-24 mx-auto ">
+  <div className="flex flex-col text-center w-full mb-20 ">
   <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Innovative Power Solutions</h1>
   <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
     Discover our cutting-edge battery and charger products, designed to keep your devices powered wherever you go. From lithium-ion batteries to versatile USB-C chargers, our solutions are built to match modern demands with reliability and performance.
@@ -273,7 +273,7 @@ export default function MHome() {
 </div>
 
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+      <div className="lg:w-1/3 sm:w-1/2 p-4 ">
       <div className="flex relative">
     <img alt="SC308 Duo Battery LCD Charger" className="absolute inset-0 w-full h-full object-cover object-center" 
          src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732274191/swissco/117ad450-689e-46f7-9383-d4214f8a2f50.png" />
@@ -331,7 +331,7 @@ export default function MHome() {
         <p className="leading-relaxed">
             The DL608 USB Twin Battery Charger is designed for efficiency and convenience, allowing you to charge 
             two batteries simultaneously via USB. Its compact design makes it ideal for travel, while the fast-charging 
-            technology ensures your devices are powered up and ready when you need them most.
+            technology for your devices.
         </p>
     </div>
 </div>
@@ -347,7 +347,7 @@ export default function MHome() {
         <p className="leading-relaxed">
             Experience seamless charging with the USB Camera Battery featuring a Type-C input. This battery offers 
             rapid charging capabilities, versatile connectivity, and is ideal for photographers needing reliable power 
-            on the go. Compact and efficient, it keeps your equipment ready whenever you are.
+            on the go. Compact and efficient.
         </p>
     </div>
 </div>
