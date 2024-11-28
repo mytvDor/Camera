@@ -1,6 +1,7 @@
 import { MapPin } from 'lucide-react';
 import Slider from '@/Comps/Slider';
 import '../App.css'
+import { useEffect } from 'react';
 export default function Events() {
  
   const events = [
@@ -49,6 +50,9 @@ OREGAON EAST, MUMBAI, INDIA`,
     window.open(pdfUrl, "_blank", "noopener,noreferrer");
   };
   
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

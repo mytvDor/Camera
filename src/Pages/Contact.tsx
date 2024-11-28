@@ -1,5 +1,8 @@
 
 // export default function Contact() {
+
+import { useEffect } from "react";
+
  
 //   return (
 //     <div>
@@ -94,6 +97,10 @@
 //   )
 // }
 export default function Contact() {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <section className="py-24">
@@ -139,7 +146,7 @@ export default function Contact() {
                   </a>
                 </h3>
               </div>
-              <div>
+              {/* <div>
                 <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">
                   Instagram
                 </h6>
@@ -148,7 +155,7 @@ export default function Contact() {
                   Instagram
                   </a>
                 </h3>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import CountUp from "react-countup";
 export default function About() {
  
- 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
   return (
     <div className="bg-white">
@@ -81,13 +84,13 @@ export default function About() {
                     {/*  Animation on counter -------------------------------- */}
                     <div className="w-full flex-col justify-center items-start gap-6 flex">
                         <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                            <div className="min-h-[8rem] max-h-[8rem] w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className="min-h-[8rem] max-h-[8rem] w-full h-full p-3.5 rounded-xl    transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={30} suffix="+" duration={3.5} />  Years</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     A Legacy in the Camera Industry
                                 </p>
                             </div>
-                            <div className="min-h-[8rem] max-h-[8rem] p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className="min-h-[8rem] max-h-[8rem] p-3.5 rounded-xl    transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={20} suffix="+" duration={3.5} />  Countries</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Reaching Markets Globally
@@ -95,13 +98,13 @@ export default function About() {
                             </div>
                         </div>
                         <div className=" min-h-[8rem] max-h-[8rem] justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                            <div className="min-h-[8rem] max-h-[8rem] w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className="min-h-[8rem] max-h-[8rem] w-full p-3.5 rounded-xl    transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={60} suffix="K+" duration={3.5} />  Customers</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Loyalty Built on Quality and Trust
                                 </p>
                             </div>
-                            <div className=" min-h-[8rem] max-h-[8rem] p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div className=" min-h-[8rem] max-h-[8rem] p-3.5 rounded-xl    transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9"><CountUp end={99} suffix="%" duration={3.5} />  Satisfaction</h4>
                                 <p className="text-gray-500 text-base font-normal leading-relaxed">
                                     Our Commitment to Client Happiness
@@ -111,8 +114,8 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="w-full lg:justify-start justify-center items-start flex">
-                <div className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">
+            <div className="w-full mt-30 lg:justify-start justify-center items-start flex">
+                <div className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 border-gray-200 rounded-3xl sm:border  relative">
                     <img className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
                         src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732437027/swissco/product/fafe27fb-077f-4d13-9c41-93050b1bd1d0.png" alt="About Us image" />
                 </div>

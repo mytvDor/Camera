@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom"
 import { Camera, Battery, Eye, Users } from 'lucide-react'
 import '../App.css'
+import { useEffect } from "react";
 export default function MHome() {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
 <div className="bg-white m-1">
