@@ -106,14 +106,17 @@ export default function Contact() {
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="md:flex gap-x-24 clear-left md:mb-16 mb-10">
-          <div className="h-full min-w-[20rem] mb-4">
+          <div className="h-full min-w-[19rem] mb-4">
+          <h2 className="text-black font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">
+                Get In Touch
+              </h2>
               <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733119284/swissco/events/WhatsApp_Image_2024-12-02_at_11.21.54_AM_ag0csp.jpg" alt="Card" />
             </div>
             <div className="md:mb-0 mb-4">
-              <h2 className="text-black font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">
+              {/* <h2 className="text-black font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">
                 Get In Touch
-              </h2>
-              <p className="text-xl font-normal leading-7 mb-7 md:text-left text-center">
+              </h2> */}
+              <p className="text-xl pt-12 font-normal leading-7 mb-7 md:text-left text-center">
               We are committed to building strong connections and providing you with the support you need. Whether you have a question about our services, feedback, a specific concern, or simply want to chat, we’re here and eager to assist. Our team values every interaction and strives to make your experience with us as smooth as possible. Reach out via email, phone, or connect with us on our social media channels. No matter the nature of your message, we’re here to listen, guide, and respond promptly. We appreciate your interest and look forward to engaging with you!              
                </p>
               <div className="flex md:items-center md:justify-start justify-center">
