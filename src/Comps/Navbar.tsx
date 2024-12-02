@@ -152,7 +152,7 @@ function MountainIcon(props: React.HTMLAttributes<HTMLImageElement>) {
     <div className="rounded-full">
     <img
     className="rounded-full"
-      src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732554877/swissco/298ce063-478d-4284-8bb5-e0e7cffaf5c3.png"
+      src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733119011/swissco/c4b3614e-28ab-47c8-835e-04e8d47a1d16.png"
       alt="logo"
       height="auto"
       width="50px"

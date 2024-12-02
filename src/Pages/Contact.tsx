@@ -106,6 +106,9 @@ export default function Contact() {
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="md:flex gap-x-24 clear-left md:mb-16 mb-10">
+          <div className="h-full min-w-[20rem] mb-4">
+              <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733119284/swissco/events/WhatsApp_Image_2024-12-02_at_11.21.54_AM_ag0csp.jpg" alt="Card" />
+            </div>
             <div className="md:mb-0 mb-4">
               <h2 className="text-black font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">
                 Get In Touch
@@ -117,9 +120,7 @@ export default function Contact() {
                 {/* <button className="w-36 h-12 rounded-full bg-red-600 transition-all duration-700 hover:bg-red-800 shadow text-white text-center text-base font-semibold leading-6">Contact Us</button> */}
               </div>
             </div>
-            <div>
-              {/* <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733115302/swissco/events/39084542-b1c2-4ed3-9238-302d560abd33.png" alt="Card" /> */}
-            </div>
+            
             <div className="border-l-2 md:border-red-600 border-white px-10 py-6">
               <div className="mb-8">
                 <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">

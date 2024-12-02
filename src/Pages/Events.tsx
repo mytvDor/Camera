@@ -105,6 +105,9 @@ OREGAON EAST, MUMBAI, INDIA`,
       ))}
       <Slider />
     </div>
+    <div className="mx-auto bg-white-200 flex flex-col items-center justify-center px-8 py-8">
+      <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733115267/swissco/events/f46502ad-c546-4895-b3ff-0222993c1de3.png" alt="" />
+    </div>
   </>
   );
 }
