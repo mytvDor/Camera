@@ -133,7 +133,7 @@ export default function About() {
         <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
                 <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
                     <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-                        " Our Mission "
+                        Our Mission
                     </h2>
                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
                         At SWISSCO Technology, we believe in harnessing diverse perspectives and strengths to foster environments 
