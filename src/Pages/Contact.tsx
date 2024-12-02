@@ -117,6 +117,9 @@ export default function Contact() {
                 {/* <button className="w-36 h-12 rounded-full bg-red-600 transition-all duration-700 hover:bg-red-800 shadow text-white text-center text-base font-semibold leading-6">Contact Us</button> */}
               </div>
             </div>
+            <div>
+              {/* <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733115302/swissco/events/39084542-b1c2-4ed3-9238-302d560abd33.png" alt="Card" /> */}
+            </div>
             <div className="border-l-2 md:border-red-600 border-white px-10 py-6">
               <div className="mb-8">
                 <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">
@@ -138,10 +141,20 @@ export default function Contact() {
               </div>
               <div className="mb-8">
                 <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">
+                  Facebook
+                </h6>
+                <h3 className="text-black text-xl font-semibold leading-8 md:text-start text-center">
+                  <a href="https://www.facebook.com/swisscophoto/photos" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">
+                   @swisscophoto
+                  </a>
+                </h3>
+              </div>
+              <div className="mb-8">
+                <h6 className="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">
                   Instagram
                 </h6>
                 <h3 className="text-black text-xl font-semibold leading-8 md:text-start text-center">
-                  <a href="https://instagram.com/yourinstagramhandle" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">
+                  <a href="https://www.instagram.com/swissco_photo/" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">
                    @swissco_photo
                   </a>
                 </h3>

@@ -1,9 +1,9 @@
 import { MapPin } from 'lucide-react';
 import Slider from '@/Comps/Slider';
 import '../App.css'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 export default function Events() {
- 
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
   const events = [
     {
       id: 1,
@@ -30,6 +30,7 @@ entertainment sector.`,
 NESCO, WESTERN EXPRESS HIGHWAY
 OREGAON EAST, MUMBAI, INDIA`,
       image: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732287129/swissco/events/43baa1ee-3579-46e1-ada8-d5d6d19a497f.png',
+      sm_image: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1733115302/swissco/events/39084542-b1c2-4ed3-9238-302d560abd33.png',
       logo: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731481769/swissco/Swissco_boljbq.png'
     },
     // {
@@ -52,20 +53,29 @@ OREGAON EAST, MUMBAI, INDIA`,
   
   useEffect(() => {
     window.scrollTo(0, 0);
+
+    // Detect small screens
+    const mediaQuery = window.matchMedia('(max-width: 640px)');
+    const handleMediaQueryChange = () => setIsSmallScreen(mediaQuery.matches);
+    handleMediaQueryChange();
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+    return () => mediaQuery.removeEventListener('change', handleMediaQueryChange);
   }, []);
 
   return (
     <>
     <div className="mx-auto bg-white-200 min-h-screen flex flex-col items-center justify-center px-8 py-8">
-     
-     <h1 className=' mt-14 text-5xl text-red-600 mb-20 font-bold '>Upcomming Events</h1>
+      <h1 className="mt-14 text-5xl text-red-600 mb-20 font-bold">Upcoming Events</h1>
 
       {events.map((event) => (
         <div key={event.id} className="flex flex-col w-full max-w-4xl bg-white rounded-2xl shadow-lg mb-8">
           <div
-  className="w-full h-64 bg-top bg-contain bg-no-repeat rounded-t"
-  style={{ backgroundImage: `url(${event.image})` }}
-></div>
+            className="w-full h-64 bg-top bg-contain bg-no-repeat rounded-t"
+            style={{
+              backgroundImage: `url(${isSmallScreen ? event.sm_image : event.image})`
+            }}
+          ></div>
 
           <div className="flex flex-col w-full md:flex-row">
             {/* Left Section with Date and Time */}
@@ -79,10 +89,12 @@ OREGAON EAST, MUMBAI, INDIA`,
             {/* Right Section with Event Details */}
             <div className="flex flex-col p-4 font-normal text-gray-800 md:w-3/4">
               <h1 className="mb-4 text-3xl font-bold text-red-600">{event.title}</h1>
-              <p className="leading-normal text-gray-700 ">{event.description}</p>
+              <p className="leading-normal text-gray-700">{event.description}</p>
               <div className="flex items-center mt-4">
-                <div className="text-gray-700 flex items-center font-bold">      
-                  <MapPin className="w-8 h-8 mr-2 text-red-600" />{event.location}</div>
+                <div className="text-gray-700 flex items-center font-bold">
+                  <MapPin className="w-8 h-8 mr-2 text-red-600" />
+                  {event.location}
+                </div>
                 <div className="flex justify-end w-1/2">
                   <img src={event.logo} alt={`${event.title} logo`} className="w-10" />
                 </div>
@@ -91,8 +103,8 @@ OREGAON EAST, MUMBAI, INDIA`,
           </div>
         </div>
       ))}
-      <Slider/>
+      <Slider />
     </div>
-    </>
+  </>
   );
 }
