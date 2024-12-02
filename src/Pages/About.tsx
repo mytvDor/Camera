@@ -127,7 +127,7 @@ export default function About() {
 <section className="py-5 relative">
     <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
         <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
-        <img className="lg:mx-0 mx-auto h-full rounded-3xl object-contain" 
+        <img className="lg:mx-0 mx-auto w-full rounded-3xl object-contain" 
                 src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1732556964/swissco/content/c03656b8-3ae2-46f9-a1d9-43f7ff135f9f.png" alt="About Us image" />
            
         <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
