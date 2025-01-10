@@ -62,7 +62,9 @@ OREGAON EAST, MUMBAI, INDIA`,
 
     return () => mediaQuery.removeEventListener('change', handleMediaQueryChange);
   }, []);
-
+  const openPDF = (pdf:string) => {
+    window.open(`/${pdf}.pdf`, '_blank'); // Opens Event1.pdf in a new tab/window
+  };
   return (
     <>
     <div className="mx-auto bg-white-200 min-h-screen flex flex-col items-center justify-center px-8 py-8">
@@ -105,7 +107,7 @@ OREGAON EAST, MUMBAI, INDIA`,
       ))}
       <Slider />
     </div>
-    <div className="flex flex-col items-center justify-center">
+    {/* <div className="flex flex-col items-center justify-center">
   <iframe
     title="Event 1 PDF"
     className="m-2"
@@ -118,10 +120,26 @@ OREGAON EAST, MUMBAI, INDIA`,
     src="/Event2.pdf"
     style={{ width: '100%', height: '100vh', maxWidth: '800px' }}
   />
-</div>
+</div> */}
 
-    <div className="mx-auto bg-white-200 flex flex-col items-center justify-center px-8 py-8">
+    {/* <div className="mx-auto bg-white-200 flex flex-col items-center justify-center px-8 py-8">
       <img src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733115267/swissco/events/f46502ad-c546-4895-b3ff-0222993c1de3.png" alt="" />
+    </div> */}
+    <div className="mx-auto bg-white flex flex-col items-center justify-center px-8 py-8">
+      <img
+        src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733115267/swissco/events/f46502ad-c546-4895-b3ff-0222993c1de3.png"
+        alt="Event Image"
+        onClick={()=>openPDF("Event1")}
+        className="cursor-pointer"
+      />
+    </div>
+    <div className="mx-auto bg-white flex flex-col items-center justify-center px-8 py-8">
+      <img
+        src="https://res.cloudinary.com/de6u5kbiw/image/upload/v1733115267/swissco/events/f46502ad-c546-4895-b3ff-0222993c1de3.png"
+        alt="Event Image"
+        onClick={()=>openPDF("Event2")}
+        className="cursor-pointer"
+      />
     </div>
   </>
   );
