@@ -54,7 +54,9 @@ sm_image: '/Event1.jpg',
   location: 'Chennai Trade Centre, Chennai, India',
   image: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1732287129/swissco/events/43baa1ee-3579-46e1-ada8-d5d6d19a497f.png',
   sm_image: './Event2.jpg',
-  logo: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731481769/swissco/Swissco_boljbq.png'
+  logo: 'https://res.cloudinary.com/de6u5kbiw/image/upload/v1731481769/swissco/Swissco_boljbq.png',
+  pdf:"Event2"
+
 }
 
     // {
@@ -109,7 +111,7 @@ sm_image: '/Event1.jpg',
               <div className="text-3xl">{event.date.split(' ')[0]}</div>
               <div className="text-6xl">{event.date.split(' ')[1]}</div>
               {/* <div className="text-xl">{event.time}</div> */}
-              <div className="text-m cursor-pointer" onClick={()=>openPDF(`${event.pdf}`)}>{`>> More Info <<`}</div>
+              <div className="text-m cursor-pointer" onClick={()=>openPDF(`${event.pdf}`)}>{`>>for More Info click here <<`}</div>
             </div>
 
             {/* Right Section with Event Details */}
